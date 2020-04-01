@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.3.0'/>
+ <uml:Enumeration xmi:type='uml:Enumeration' xmi:uuid='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Etat'
+   visibility='public'>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:d1c91532-6bc7-4aec-bf12-24cb84f8533d'
+    name='MORT'
+    visibility='public'/>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:d5328c86-ff26-4b3d-b278-a4a980006e76'
+    name='VIVANT'
+    visibility='public'/>
+ </uml:Enumeration>
+</xmi:XMI>

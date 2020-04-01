@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Interface xmi:type='uml:Interface' xmi:uuid='urn:uuid:28cdfa59-463b-4351-9fb4-1a69cc439adf'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='RegleEvolution'
+   visibility='public'>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:386f91cf-6827-4523-bb2f-a56f3bb30f39'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='evoluer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:5c3d621b-bb9a-473f-b66e-d016400ac3a0'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='etat'
+     direction='in'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:da33c91b-b560-4d3c-9404-a3351b59b139'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='etats'
+     direction='in'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:2ab07ed4-d9e9-485f-b28a-d08d3171880d'
+      value='0'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3cc44a98-6b2a-47ed-ae7d-23ca939f210c'
+      value='*'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:4976987a-a25b-41b7-b98f-19811954a4d1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:c1dea918-eae9-41e2-8db1-7052abd4f3fc'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getRegleVoisinage'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:a1ff3734-82b3-40e6-b48b-457a109e40be'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:c9316b14-bd7f-4b9b-84fa-7b7725e083d3'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Interface>
+</xmi:XMI>

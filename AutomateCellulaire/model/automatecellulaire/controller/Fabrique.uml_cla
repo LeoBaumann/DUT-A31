@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:2dd3dd26-6887-4f39-bd72-c347bd4e710e'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Fabrique'
+   visibility='public'>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:bdd79d5e-c07b-49d1-b757-40b33778f11a'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='creerMethodeExtension'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:c40dd218-27e5-4da0-b8b3-1a77263cae07'
+     body='&#xa;Methode qui creer une Methode d&apos;extension&#xa;'/>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:c6139dea-61eb-41a6-adf7-cefc85fa9e32'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='t'
+     direction='in'>
+    <type href='urn:uuid:fc4703e4-af1b-4660-bd4e-d3432b5f59f0'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7155630e-3ddd-4f52-9535-e7d65c91c8e9'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:b045519e-ee1d-45cb-aefb-95b772d9e744'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:5967dcbc-4f8d-4e49-a34d-1e30fb4abeb9'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:96970793-2d24-48d3-97fc-4917a7b6b8b0'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e20fd09f-f5e6-47a2-9b68-034e9f5519ea'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:0c923f0b-6223-4e35-a6c0-4c06b8e167f4'
+      body='&#xa;Methode qui creer une Methode d&apos;extension&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:16b7eb5a-27e1-41f8-830e-7423ea7764b0'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:21bc1483-8222-4076-bd5b-2e002c309510'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='true'
+    name='creerRegleEvolution'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:db2acd5e-23a8-42c6-9e0c-a57fa3d91ac8'
+     body='&#xa;Methode qui creer une Regle d&apos;évolution&#xa;'/>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:242e1e3e-4f51-428e-8a78-621294f76409'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='t'
+     direction='in'>
+    <type href='mof:/automatecellulaire:uml:NamedElement/model:uml:NamedElement/TypeRegleEvolution:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:3c4f1477-5dc3-47b4-b346-2023e4dc55f5'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:661a3b50-5528-4b89-9953-7c865b394aa3'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:cd596af9-134e-4676-8ca0-dfb53968d750'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='urn:uuid:28cdfa59-463b-4351-9fb4-1a69cc439adf'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:ef5eeedf-dbdd-4222-83e5-cbf671624e29'
+      value='1'
+      visibility='public'/>
+    <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:d1f48c5f-849c-4720-ae8d-8016ee2c0339'
+      body='&#xa;Methode qui creer une Regle d&apos;évolution&#xa;'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:3611df56-de39-442e-87cd-6df7ac245667'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Enumeration xmi:type='uml:Enumeration' xmi:uuid='urn:uuid:fc4703e4-af1b-4660-bd4e-d3432b5f59f0'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='TypeMethodeExtension'
+   visibility='public'>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:0a856982-f891-4ba6-99ed-cca12b6821cc'
+    name='CONSTANTE'
+    visibility='public'/>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:05e7bb56-b1e6-4d8b-83ec-12c35739aa92'
+    name='PERIODICITE'
+    visibility='public'/>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:4078a80b-4fd3-4ad8-8804-c91a59e96f26'
+    name='SYMETRIE'
+    visibility='public'/>
+ </uml:Enumeration>
+</xmi:XMI>

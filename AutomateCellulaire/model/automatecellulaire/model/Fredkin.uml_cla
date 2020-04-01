@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:296843d4-a620-4dbb-ba73-289622001b06'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Fredkin'
+   visibility='public'>
+  <interfaceRealization xmi:type='uml:InterfaceRealization' xmi:uuid='urn:uuid:b906162c-aa91-4fd0-be7c-c119db621285'
+    visibility='public'>
+   <contract href='urn:uuid:28cdfa59-463b-4351-9fb4-1a69cc439adf'/>
+   <client href='urn:uuid:296843d4-a620-4dbb-ba73-289622001b06'/>
+   <supplier href='urn:uuid:28cdfa59-463b-4351-9fb4-1a69cc439adf'/>
+  </interfaceRealization>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:b574e687-08c8-449c-aa29-33569e567786'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getRegleVoisinage'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:63eff57b-ec60-4812-8611-5ec72ec3b6c1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:c9316b14-bd7f-4b9b-84fa-7b7725e083d3'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:4e8035b1-7bd3-4333-8739-6e0396e220f9'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='evoluer'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:3d8ad5f0-39eb-4479-a5ba-9f88d37224bc'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='etat'
+     direction='in'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:6e356640-cc8c-4797-bd81-0fb322131811'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='etats'
+     direction='in'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:1c1861e0-f126-42ab-8e0b-ae3db7511305'
+      value='0'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:6e8c730b-45e0-44e0-a9f5-d3efec3dbb12'
+      value='*'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

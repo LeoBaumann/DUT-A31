@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Class xmi:type='uml:Class' xmi:uuid='urn:uuid:e7c7536a-fd93-450b-8667-1c85d8f51134'
+   isAbstract='false'
+   isActive='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='Cellule'
+   visibility='public'>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:c4026784-4fd6-4cad-8489-fee5a7536f40'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='x'
+    aggregation='none'
+    visibility='private'>
+   <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:747680c3-7663-4b0f-97f0-d500fef4b368'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:e7437df5-3b68-4dc3-b416-1c85737602e9'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:type='uml:Property' xmi:uuid='urn:uuid:685ea934-2dee-4f07-845e-8e48c2a188dd'
+    isDerived='false'
+    isDerivedUnion='false'
+    isID='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='y'
+    aggregation='none'
+    visibility='private'>
+   <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:c2de6621-fe64-4bb6-8f9f-65f9fff0efcd'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:c613f57d-ba0f-4002-bb67-eb94eafd5bdb'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:67cc4ace-b970-4727-9d89-d0c639b0be08'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='Cellule'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:c80b0acf-d2a9-44db-be0f-5118aa36f2db'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='x'
+     direction='in'>
+    <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:3307c1bf-a14d-4ec6-8cb6-9d140c5de7b5'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='y'
+     direction='in'>
+    <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:0663cfd2-3be2-4d6d-a261-38710f6a8fed'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name='etat'
+     direction='in'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:c1eccb28-a9ce-4ce4-81f4-701688c7c8b2'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getEtat'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:a8e790a8-63a5-48e1-9d3d-e52ed54a1273'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:55d3144d-8d47-4ebd-a37b-fca683d65f13'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:5ba93f5d-331a-4812-87df-0e7fae696bfd'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getX'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:4d02276a-602a-49de-b12c-c74748a3cefc'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:48550860-692f-45fa-bc6f-682a67bc4812'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getY'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:52fd82c8-44e0-46ae-8c2a-033373db0913'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='jar:file:/F:/Program%20Files%20(x86)/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/extensions/oracle.uml.v2/2.5/PrimitiveTypes.zip!/xmi/PrimitiveTypes.xmi#Integer'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>

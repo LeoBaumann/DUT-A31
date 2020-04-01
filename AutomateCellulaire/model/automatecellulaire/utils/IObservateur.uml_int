@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Interface xmi:type='uml:Interface' xmi:uuid='urn:uuid:9da2e8bb-c213-46f0-95d0-f3200af09633'
+   isAbstract='true'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='IObservateur'
+   visibility='public'>
+  <ownedComment xmi:type='uml:Comment' xmi:uuid='urn:uuid:23414e0c-1619-41e9-9051-1012fdde2199'
+    body='&#xa;&#xa;contrat d&apos;un observateur (DP observer)&#xa;&#xa;'/>
+  <ownedOperation xmi:type='uml:Operation' xmi:uuid='urn:uuid:697f9fc0-8481-4942-8425-c918062bf373'
+    isAbstract='true'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='miseAJour'
+    concurrency='sequential'
+    visibility='public'>
+   <ownedParameter xmi:type='uml:Parameter' xmi:uuid='urn:uuid:76423520-7502-4bea-b7b8-8d1879b041df'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     name=''
+     direction='return'>
+    <type href='mof:/void:uml:Type'/>
+    <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:7da550dc-6599-4f6c-9032-c32608da8f95'
+      value='1'
+      visibility='public'/>
+    <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:fea149e4-d9ed-4857-bfac-9443a8a3a093'
+      value='1'
+      visibility='public'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Interface>
+</xmi:XMI>

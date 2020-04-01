@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20131001' xmlns:uml='http://www.omg.org/spec/UML/20131001'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='12.2.1.4.0'/>
+ <uml:Enumeration xmi:type='uml:Enumeration' xmi:uuid='urn:uuid:3125e435-e2e1-447b-b3dc-a10912d270cb'
+   isAbstract='false'
+   isFinalSpecialization='false'
+   isLeaf='false'
+   name='TypeRegleEvolution'
+   visibility='public'>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:9022ad69-2633-4e58-8af7-cf976c27e581'
+    name='JEUDELAVIE'
+    visibility='public'/>
+  <ownedLiteral xmi:type='uml:EnumerationLiteral' xmi:uuid='urn:uuid:e1fb4db3-580e-483c-84af-504b3bc4d94c'
+    name='FREDKIN'
+    visibility='public'/>
+ </uml:Enumeration>
+</xmi:XMI>
